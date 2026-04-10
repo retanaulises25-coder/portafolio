@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(fondo.webp);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 375px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+}
+
+.input-group {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    height: 25px;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.input-group input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+.input-group input::placeholder {
+    color: white;
+}
+
+.submit {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.submit:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 14.5px;
+}
+
+.signup-link a {
+    margin-left: 8px;
+}

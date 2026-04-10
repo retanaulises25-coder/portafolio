@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio e sesion</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <form class="login-form"><!-- inicio de formulario-->
+        <div class="form-heading">Login</div><!--etiqueta para dividir o agrupar-->
+        <div class="input-group">
+            <label class="label" for="email"> </label>
+            <input required="" placeholder="Ingresa tu Email" name="email" id="email" type="email" />
+        </div>
+        <div class="input-group">
+            <label class="label" for="password"></label><!-- es para describir el input-->
+            <input required="" placeholder="Ingresa tu Contraseña" name="password" id="password"
+                type="password" /><!--es para escribir datos -->
+        </div>
+        <div class="fogor-password">
+            <a href="#">¿olvidaste tu contraseña?</a>
+        </div>
+        <button class="submit" type="button"
+            onclick="window.location.href='/semana4/portafolio/index.html';">ingresar</button>
+        <div class="signup-link">no tienes una cuenta?<a href="crear-cuenta.html">sing up</a> </div>
+    </form>
+
+</body>
+
+</html>
